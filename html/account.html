@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Account Form</title>
+<link rel="stylesheet" type="text/css" href="../css/style-feed.css">
+<script src="https://kit.fontawesome.com/a0cc46122a.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+function validateForm() {
+var password = document.getElementsByName("password")[0].value;
+var confirm_password = document.getElementsByName("confirm_password")[0].value;
+if (password != "") {
+if (password.length < 6) {
+alert("Password must be at least 6 characters long");
+return false;
+}}
+return true;
+if (password != confirm_password) {
+alert("Passwords do not match");
+return false;}
+return true;}
+</script>
+</head>
+<body>  
+<nav >
+<div class="navigation">
+<ul >
+<li style="color:#0F0C08">  _________  </li>
+</ul>
+<ul >
+<li><a href=# id="socialmedia"> <i class="fa-brands fa-instagram"></i></a></li>
+<li><a href=# id="socialmedia"> <i class="fa-brands fa-whatsapp"></i></a></li>
+<li><a href=# id="socialmedia"> <i class="fa-brands fa-facebook"></i></a></li>
+<li><a href=# id="socialmedia"> <i class="fa-brands fa-google"></i></a></li>
+<li><a href=feedback2.html > Registration Form</a></li>
+</ul>
+<input type="text" id="search" placeholder="Do you know what NAVSTAR is?">
+</div>
+</nav>
+<div class="container">
+
+<form name="registration" method="post" action="../register.php" onsubmit="return validateForm()">
+<h2>
+Create an account 
+</h2>
+<div class="id">
+<label for="username">Username:</label>
+<input 
+type="text" id="haha" name="username" required>
+<br>
+<label for="password">Password:</label>
+<input  id="haha" type="password" name="password" required>
+<br>
+<label for="confirm_password">Confirm Password:</label>
+<input id="haha" type="password"  name="confirm_password" required>
+<br>
+<input id="haha" type="submit" value="Submit">
+</form>
+<label  style="display: block; text-align:center;" > Update your info from our database? 
+<a href="../display.php"> Update </a>  </label> 
+
+<label  style="display: block; text-align:center;" > __________________________________</label>
+<label  style="display: block; text-align:center;" > 
+<a href="feedback2.html"> Return back  </a> 
+</div>
+</div>
+</body>
+</html>
