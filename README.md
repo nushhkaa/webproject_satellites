@@ -10,7 +10,7 @@ The main goal of this project was to apply the basics of **HTML** and **CSS** fr
 - ✅ Built entirely using **HTML5** and **CSS3**
 - 🛰️ Educational content focused on satellites – types, uses, FAQs, and more
 - 📄 Multiple interconnected webpages for smooth navigation
-- 📬 A **form page** to collect user input (e.g., feedback or interest in space topics)
+- 📬 A **form page** to collect user input (feedback)
 - 🎨 Fully hand-coded without any frameworks or libraries – pure HTML & CSS!
 
 ---
