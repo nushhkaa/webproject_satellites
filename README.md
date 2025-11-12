@@ -1,6 +1,6 @@
 # 🛰️ Satellites: A Web Project Using HTML & CSS
 
-This is a simple, informative website about **satellites**, created as a **high school project in 2023**.  
+This is a simple, informative website about **satellites**. I did this to get intro to web development and learnt about frontend and backend tools like MySQL and PHP as well.  
 The main goal of this project was to apply the basics of **HTML** and **CSS** from scratch and build a multi-page website with clean structure and visual styling.
 
 ---
